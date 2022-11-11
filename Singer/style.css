@@ -1,0 +1,71 @@
+﻿img {
+    border: 4px solid rgb(50, 100, 121);
+    box-shadow: 0 0 8px 2px rgba(48, 100, 121);
+  }
+  
+  .menushka ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menushka li {
+    display: inline;
+    
+  }
+  .menushka a{font-size:30px;font-family: Bahnschrift Condensed;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px 14px;
+  }
+  h1{
+    color:rgb(159, 101, 27);
+    text-align: center;
+  }
+  h2{
+    background-color: rgba(202, 109, 21, 0.4);
+  }
+  p{
+    background-color: rgba(202, 109, 21, 0.4);
+    color:rgb(1, 3, 7);
+    font-size:48px;
+    text-indent: 25px
+  }
+  .gallery { 
+    margin: 10px 40px; 
+} 
+  
+.gallery img { 
+    width: 250px; 
+    height: 150px; 
+    transition: 1s; 
+    padding: 5px; 
+} 
+  
+.gallery img:hover { 
+    filter: drop-shadow(4px 4px 6px gray); 
+    transform: scale(1.1); 
+}
+li{font-size:24px;
+    color:darkblue;
+    text-align: left;
+    padding: 14px 16px;
+    background-color: rgba(202, 109, 21, 0.4);
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding-left: 1em; 
+    text-indent: -.7em;
+  }
+  li::before {
+    content: "-О.Е-";font-family: Bahnschrift Condensed;
+    color: darkviolet;
+  }
+  th{
+    font-size:37px;
+  }
+  
